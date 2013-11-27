@@ -1,0 +1,94 @@
+/*
+* Handwritten by @paullarosbot
+*/
+
+/* Layout */
+
+body {
+    background: rgb(236, 240, 241);
+    color: #4A4C54;
+    transition: background linear .5s;
+    -webkit-transition: background linear .5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    outline: 0;
+}
+
+.btn {
+    border: 1px solid #ADADAD;
+    border-radius: 4px;
+    color: #4A4C54;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.85em;
+    line-height: 1.43;
+    margin: 10px;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn:hover {
+    color: #333;
+}
+
+#twitter {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+#viewsource {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#main {
+    bottom: 0;
+    height: 116px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 404px;
+}
+
+#main a {
+    text-transform: uppercase;
+}
+
+#counter {
+    font-size: 76px;
+    line-height: 1em;
+    height: 1em;
+}
+
+.divider {
+    display: inline-block;
+    float: left;
+    line-height: 1em;
+    height: 1em;
+    overflow: hidden;
+}
+
+#start:target {
+    background: #2C3E50;
+    color: #fff;
+}
+
+#start:target .btn {
+    color: #fff;
+}
+
+#start:target .btn:hover {
+    color: #D6D6D6;
+}

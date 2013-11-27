@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <title>Stopwatch in CSS</title>
+        <meta name="author" content="Paul Laros"> <!-- @paullarosbot -->
+        <meta name="description" content="Stopwatch in pure CSS">
+        <meta name="keywords" content="Stopwatch, CSS3, Stopwatch in CSS">
+        
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/stopwatch.css">
+    </head>
+    <body id="start">
+
+    	<div id="main">
+            <div id="counter">
+                <div id="hours" class="unit"></div>
+                <div class="divider">:</div>
+                <div id="minutes" class="unit"></div>
+                <div class="divider">:</div>
+                <div id="seconds" class="unit"></div>
+                <div class="divider">:</div>
+                <div id="centiseconds" class="unit"></div>
+            </div>
+            <div id="actions">
+                <a href="#start" class="btn"><i class="fa fa-play"></i></a>
+                <a href="#paused" class="btn"><i class="fa fa-pause"></i></a>
+                <a href="http://paullaros.github.io/stopwatch-in-css/" class="btn"><i class="fa fa-stop"></i></a>
+            </div>
+    	</div>
+
+        <div id="twitter">
+            <a class="btn" href="http://twitter.com/paullarosbot" target="_blank"><i class="fa fa-twitter"></i> @paullarosbot</a>
+            <a class="btn" href="http://twitter.com/home?status=Stopwatch%20in%20CSS%20http://paullaros.github.io/stopwatch-in-css/%20by%20@paullarosbot" target="_blank"><i class="fa fa-twitter"></i> Share</a>
+        </div>
+        <a class="btn" href="css/stopwatch.css" id="viewsource" target="_blank"><i class="fa fa-code"></i> View source</a>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-19102604-11', 'paullaros.github.io');
+            ga('send', 'pageview');
+        </script>
+
+    </body>
+</html>
