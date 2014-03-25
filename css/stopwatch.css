@@ -50,6 +50,7 @@
     -webkit-animation: centiseconds steps(100) infinite;
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
+    -webkit-animation-play-state: paused; /* chrome fix */
 }
 
 #start:target .unit:after {
