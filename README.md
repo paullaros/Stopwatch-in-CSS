@@ -1,3 +1,3 @@
-#Stopwatch in CSS
+# Stopwatch in CSS
 
 Demo: http://paullaros.github.io/stopwatch-in-css/
