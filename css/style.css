@@ -5,8 +5,10 @@
 /* Layout */
 
 body {
-    background: rgb(236, 240, 241);
-    color: #4A4C54;
+    /* background: rgb(236, 240, 241);
+    color: #4A4C54; */
+    background-image:url("../clockImg.jpg");
+    background-repeat: no-repeat;
     transition: background linear .5s;
     -webkit-transition: background linear .5s;
 }
@@ -20,7 +22,7 @@ a:hover, a:active, a:focus {
 }
 
 .btn {
-    border: 1px solid #ADADAD;
+    border: 4px solid black;
     border-radius: 4px;
     color: #4A4C54;
     cursor: pointer;
@@ -90,5 +92,6 @@ a:hover, a:active, a:focus {
 }
 
 #start:target .btn:hover {
-    color: #D6D6D6;
+   /* color: #D6D6D6; */
+   color: red;
 }
